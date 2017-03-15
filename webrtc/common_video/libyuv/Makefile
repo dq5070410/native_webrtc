@@ -10,7 +10,7 @@ CPPFLAGS += $(DEFS)
 # 目标文件  
 TARGET = libwebrtc_yuv.so 
 # 头文件查找路径
-INC = -I./ -I/home/yanghang/Desktop/BJ_CODE/ -I/home/yanghang/Desktop/BJ_CODE/third_party/libyuv/include/
+INC = -I./ -I../../../ -I../../../../third_party/libyuv/include/
 # C文件
 SRCS = $(shell ls *.cc)  
 #库文件及路径
