@@ -3,14 +3,14 @@ CC = gcc
 CPP = g++
 AR = ar rc
 DEFS = -DWEBRTC_POSIX -DWEBRTC_LINUX
-CFLAGS = -Wall -std=gnu99  
+CFLAGS = -Wall  
 CPPFLAGS = -Wall -std=c++11 -pthread
 CPPFLAGS += $(DEFS)
   
 # 目标文件  
 TARGET = libwebrtc_base.so 
 # 头文件查找路径
-INC = -I./ -I/home/yanghang/Desktop/BJ_CODE/
+INC = -I./ -I/../../
 # C文件
 SRCS = $(shell ls *.cc)  
 #库文件及路径
