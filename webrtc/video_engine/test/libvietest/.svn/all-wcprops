@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6218/trunk/webrtc/video_engine/test/libvietest
+END
+libvietest.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5321/trunk/webrtc/video_engine/test/libvietest/libvietest.gypi
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5903/trunk/webrtc/video_engine/test/libvietest/OWNERS
+END

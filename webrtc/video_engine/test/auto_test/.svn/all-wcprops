@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6867/trunk/webrtc/video_engine/test/auto_test
+END
+vie_auto_test.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6181/trunk/webrtc/video_engine/test/auto_test/vie_auto_test.gypi
+END
+vie_auto_test.isolate
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6427/trunk/webrtc/video_engine/test/auto_test/vie_auto_test.isolate
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6379/trunk/webrtc/video_engine/test/auto_test/OWNERS
+END
