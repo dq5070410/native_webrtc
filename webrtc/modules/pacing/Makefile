@@ -10,7 +10,7 @@ CPPFLAGS += $(DEFS)
 # 目标文件  
 TARGET = libpacing.so
 # 头文件查找路径
-INC = -I./ -I/home/yanghang/Desktop/BJ_CODE/
+INC = -I./ -I../../../
 # C文件
 SRCS = $(shell ls *.cc)  
 #库文件及路径
