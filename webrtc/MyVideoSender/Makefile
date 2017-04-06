@@ -10,9 +10,15 @@ CPPFLAGS += $(DEFS)
 # 目标文件  
 TARGET = video_sender 
 # 头文件查找路径
-INC = -I./ -I../../ -I./include/ -I./include/ffmpeg -I/usr/X11R6/include -L/usr/X11R6/lib
+INC = -I./ -I../../ -I./include/ -I./include/ffmpeg
 # C文件
 SRCS = $(shell ls *.cc)  
+SRCS += ../../test/encoder_settings.cc
+SRCS += ../../test/fake_decoder.cc
+SRCS += ../../test/frame_generator.cc
+SRCS += ../../test/frame_generator_capturer.cc
+SRCS += ../../test/frame_utils.cc
+SRCS += ../../test/vcm_capturer.cc
 #库文件及路径
 DLIBS += -lwebrtc_base -lvideo_processing -lvideo_render -lvideo_engine -lvideo_coding -lsystem_wrappers -lrtp_rtcp -lutility
 DLIBS += -lremote_bitreate_estimator -lpacing -lchannel_transport -lbitrate_controller -lcommon_video -lyuv -lwebrtc_yuv -lvideo_capture
